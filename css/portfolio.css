@@ -376,6 +376,7 @@
     min-width: 1600px;
     margin: 0 auto;
     animation: wheel 1s ease infinite;
+    text-align: center;
 }
 
 @keyframes wheel {
@@ -390,13 +391,15 @@
     }
 }
 
-.section01 .WheelDown a {}
+.section01 .WheelDown a {
+    display: inline-block;
+
+}
 
 .section01 .WheelDown i {
     display: block;
     line-height: 0.3;
     font-size: 40px;
-    text-align: center;
 }
 
 
