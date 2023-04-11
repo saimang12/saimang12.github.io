@@ -371,8 +371,9 @@
 
 .section01 .WheelDown {
     position: absolute;
-    inset: auto auto 100px 50%;
-    transform: translate(-50%, 0);
+    inset: auto auto 100px 0;
+    width: 1600px;
+    margin: 0 auto;
     animation: wheel 1s ease infinite;
 }
 
@@ -380,11 +381,11 @@
 
     0%,
     100% {
-        transform: translate(-50%, 0);
+        transform: translate(0, 0);
     }
 
     50% {
-        transform: translate(-50%, -10px);
+        transform: translate(0, -10px);
     }
 }
 
