@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .type('experience')
         .pause(300)
         .type(' , ')
-        .pause(500)
+        .pause(300)
         .type('develop')
         .go();
 });

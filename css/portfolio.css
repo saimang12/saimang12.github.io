@@ -460,7 +460,7 @@
     content: "";
     position: absolute;
     inset: 0 0 0 0;
-    transition: 0s 0.6s;
+    transition: 0s 0.7s;
 }
 
 .pf_section.on .bg_drop::after {
