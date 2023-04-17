@@ -11,7 +11,7 @@ $(function () {
             $('.gnb li').eq(0).addClass('on');
             $('.section').eq(0).addClass('on');
         },
-
+        css3: false,
     };
 
     $('.main').fullpage(fullpageOption);
